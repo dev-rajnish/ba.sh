@@ -4,4 +4,6 @@ echo 'started'
 
 cp -rv git/ $USR_BIN_DIR
 
-echo -e ":::: >> Installed"
+ln -sv git/* $USR_BIN_DIR
+
+echo  "::::)) Installed ((::::"
