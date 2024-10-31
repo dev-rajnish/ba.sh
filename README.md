@@ -1,12 +1,20 @@
 ### copy the code to Install
 ```
-curl -sSL https://raw.githubusercontent.com/dev-rajnish/bash-exec/master/folder-to-github/install.sh | bash
-```
+git clone https://github.com/dev-rajnish/ba.sh.git && cd ba.sh && ./install.sh
 
+```
+#OR
+
+```
+git clone https://github.com/dev-rajnish/ba.sh.git 
+cd ba.sh 
+./install.sh
+
+```
 ### for un-installing copy
 
 ```
-curl -sSL https://raw.githubusercontent.com/dev-rajnish/bash-exec/master/folder-to-github/uninstall.sh | bash
+
 ```
 ## Install Requirements
 
@@ -19,4 +27,4 @@ gh auth login
 
 ### set up with access token
 - gh from github
-- git push  in terminal
+
